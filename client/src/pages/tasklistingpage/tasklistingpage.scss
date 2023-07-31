@@ -1,0 +1,45 @@
+.task {
+  h1 {
+    margin: 2rem 3rem;
+    font-size: 5rem;
+  }
+
+  .home-btn {
+    width: 25rem;
+    height: 7rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 2rem;
+  }
+  .task-listing-table {
+    margin: 5rem 2rem;
+    width: 100%;
+    border-collapse: collapse;
+    th {
+      font-size: 2.5rem;
+      text-align: center;
+      border: 2px solid grey;
+    }
+    td {
+      text-align: center;
+      border: 2px solid grey;
+    }
+    .body {
+      font-size: 2.2rem;
+    }
+
+    tbody tr:hover {
+      background-color: #f5f5f5;
+    }
+
+    button {
+      background-color: dodgerblue;
+      border: none;
+      height: 5rem;
+      border-radius: 5px;
+      &:hover {
+        background-color: black;
+      }
+    }
+  }
+}

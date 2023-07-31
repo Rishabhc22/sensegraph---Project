@@ -1,0 +1,35 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://w0.peakpx.com/wallpaper/340/302/HD-wallpaper-black-solid-plain-dark.jpg");
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    input {
+      width: 1217px;
+      height: 60px;
+      background-color: white;
+      font-weight: bold;
+      color: black;
+      font-size: 3rem;
+      border-radius: 10px;
+    }
+
+    input::placeholder {
+      color: black;
+    }
+  }
+}

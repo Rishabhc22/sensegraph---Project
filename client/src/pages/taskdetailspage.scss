@@ -1,0 +1,109 @@
+.main {
+  margin: 15px;
+
+  .home-btn {
+    width: 17rem;
+    height: 7rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    color: white;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .title {
+    margin-bottom: 15px;
+    font-size: 25px;
+
+    input {
+      margin-top: 10px;
+      height: 6rem;
+      font-size: 22px;
+    }
+  }
+
+  .description {
+    margin-bottom: 15px;
+    font-size: 25px;
+
+    input {
+      margin-top: 10px;
+      height: 6rem;
+      font-size: 22px;
+    }
+  }
+
+  .duedate {
+    margin-bottom: 15px;
+    font-size: 25px;
+
+    input {
+      margin-top: 10px;
+      height: 6rem;
+      font-size: 22px;
+    }
+  }
+
+  .status {
+    margin-bottom: 25px;
+    font-size: 25px;
+
+    input {
+      margin-top: 10px;
+      height: 6rem;
+      font-size: 22px;
+    }
+  }
+
+  .edit {
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    font-size: 3rem;
+    width: 25rem;
+    height: 7rem;
+
+    &:hover {
+      background-color: rgb(83, 3, 83);
+      cursor: pointer;
+    }
+  }
+
+  .save {
+    margin-right: 20px;
+    background-color: rgb(40, 232, 40);
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    font-size: 2rem;
+    width: 20rem;
+    height: 5.5rem;
+    border-radius: 10px;
+  }
+
+  .delete {
+    margin-right: 10px;
+    background-color: rgb(15, 98, 222);
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    font-size: 3rem;
+    width: 25rem;
+    height: 7rem;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: rgb(6, 18, 126);
+      cursor: pointer;
+    }
+  }
+}
